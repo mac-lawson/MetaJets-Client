@@ -1,2 +1,0 @@
-from clientStyle import coloring
-

@@ -1,17 +1,13 @@
 from clientStyle import logo
 from clientStyle import coloring
-
+from interface import run   
 
 def mainMenu():
     while True:
         print((coloring.terminal.fail) + (logo.logo) + (coloring.terminal.end))
-        print("[1] Settings")
-        print("[2] Run")
+        menuOptions = input('Press Enter to Run')
+        run.getWeb('http://metajets.tk')
 
-        menuOptions = input('MetaJets ~ ')
-        if (menuOptions == "1"):
-            print('')
-        if (menuOptions == "2"):
-            print('')
+
 
     
