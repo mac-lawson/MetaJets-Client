@@ -2,11 +2,11 @@
 The python client for MetaJets to run along XPlane
 
 ### Deployment 
-bash '''
+bash '
 sudo bash install.sh
-'''
+'
 or 
-bash '''
+bash '
 python3 main.py
-'''
+'
 
